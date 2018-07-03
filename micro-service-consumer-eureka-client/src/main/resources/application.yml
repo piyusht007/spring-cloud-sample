@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: eureka-client-consumer
+server:
+  port: 0 # So that service will be available on random port.
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+  instance:
+    preferIpAddress: true
