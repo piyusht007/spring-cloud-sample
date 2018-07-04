@@ -11,9 +11,9 @@ This is a multi-module maven project which has following modules:
 
 Start the projects from command line using: 
 
-"mvn spring-boot:run"
+`mvn spring-boot:run`
 
-Follow below steps to 
+Follow below steps to see services in action:
 
 1. Start service discovery server.
 2. To test that the eureka server load balance between the clients we need to start **two instances/processes** of `micro-service-eureka-client` spring boot application. Just run `mvn spring-boot:run` from two different command windows/terminals.
