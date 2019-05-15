@@ -8,6 +8,7 @@ This is a multi-module maven project which has following modules:
 | **micro-services-gateway** | Spring boot application which acts as a gateway for all the micro-services |
 | **micro-service-eureka-client** | Spring boot application which acts as a eureka client |
 | **micro-service-consumer-eureka-client** | Spring boot application which acts as a eureka client and also communicates with above eureka client |
+| **config-server** | Spring boot application which acts as a central configuration server for micro-services |
 
 Start the projects from command line using: 
 
